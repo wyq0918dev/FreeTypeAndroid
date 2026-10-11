@@ -1,0 +1,4 @@
+[submodule "freetype/src/main/cpp/freetype"]
+	path = freetype/src/main/cpp/freetype
+	url = https://github.com/freetype/freetype.git
+	branch = VER-2-14-3
