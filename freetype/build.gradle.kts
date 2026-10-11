@@ -6,10 +6,12 @@ plugins {
 android {
     namespace = "org.freetype.android"
     compileSdk {
-        version = release(37)
+        version = release(version = 37)
     }
     defaultConfig {
-        minSdk = 26
+        minSdk {
+            version = release(version = 26)
+        }
     }
     externalNativeBuild {
         cmake {
